@@ -87,3 +87,16 @@ NSInteger cameraMode;
 }
 
 %end
+
+%hook CAMDynamicShutterControl
+
+// Fixes shutter
+- (BOOL)_shouldShortPressOnTouchDown {
+	return true;
+}
+
+- (BOOL)_shouldShortPressOnTouchUp {
+	return true;
+}
+
+%end
