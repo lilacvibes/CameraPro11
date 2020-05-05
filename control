@@ -1,0 +1,10 @@
+Package: com.lilacvibes.camerapro11
+Name: CameraPro11
+Depends: mobilesubstrate, firmware (>= 13)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Enables iPhone 11 camera UI for other devices
+Depiction: https://lilacvibes.github.io/depictions/?p=com.lilacvibes.camerapro11
+Maintainer: lilacvibes
+Author: lilacvibes
+Section: Tweaks
